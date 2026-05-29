@@ -1,73 +1,107 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Frutos Secos - La Fran</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
-
-</head>
-<body>
-  <header>
-    <div class="brand">    
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ofertas Universo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="brand">
         <div>
-            <div class="logo"><img src="img/logo1.jpeg" alt="logo" style="width: 46px; height: 46px;"></div>
-                <h1>Frutos Secos · La Fran</h1>
-            <div style="font-size:12px;color:var(--muted)">Calidad y sabores naturales</div>
+          <div class="logo">
+            <img
+              src="./img/logo_nuevo_UP-e1762789965305.webp"
+              alt="logo"
+              style="width: 46px; height: 46px"
+            />
+          </div>
+          <h1>Ofertas Universo Premium</h1>
+          <div style="font-size: 12px; color: var(--muted)">
+            Retail de productos para el hogar, cocina y descanso
+          </div>
         </div>
-    </div>
-</header>
-  <main>
-
-    <section class="hero">
-      <div class="hero-left hero-card">
-        <h2>Frutos secos para cada ocasión</h2>
-        <p style="color:var(--muted)">Confitados, salados, mixtos o premium: selecciona la presentación y llévate lo mejor de la naturaleza.</p>  
       </div>
-    </section>
-
-    <section>
-      <h3 style="margin-bottom:8px">Productos</h3>
-      <div>
-        <nav>
-            <div class="search">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.35-4.35" stroke="#666" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="11" cy="11" r="5" stroke="#666" stroke-width="1.6"></circle></svg>
-                <input id="q" type="search" placeholder="Buscar: almendras, nueces..." />
-            </div>
-        </nav>
-    </div>
-    <div class="hero-search">
-            
-            <div class="card filters">
-            
-                <select id="filterType">
-                <option value="all">Todos los tipos</option>
-                <option value="almendras">Almendras</option>
-                <option value="nuez">Nueces</option>
-                <option value="mix">Mix</option>
-                <option value="mani">Maní</option>
-                <option value="otros">otros</option>
-                </select>
-                <!-- </div>
-                <div class="card filters"> -->
-                <select id="sortBy">
-                <option value="default">Orden recomendado</option>
-                <option value="price-asc">Precio: bajo a alto</option>
-                <option value="price-desc">Precio: alto a bajo</option>
-                </select>
-            </div>
+    </header>
+    <main>
+      <!-- <section class="hero">
+        <div class="hero-left hero-card">
+          <h2>Frutos secos para cada ocasión</h2>
+          <p style="color: var(--muted)">
+            Confitados, salados, mixtos o premium: selecciona la presentación y
+            llévate lo mejor de la naturaleza.
+          </p>
         </div>
-      <div id="products" class="products"></div>
-    </section>
+      </section> -->
 
-  </main>
+      <section>
+        <h3 style="margin-bottom: 8px">Productos</h3>
+        <div>
+          <nav>
+            <div class="search">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M21 21l-4.35-4.35"
+                  stroke="#666"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+                <circle
+                  cx="11"
+                  cy="11"
+                  r="5"
+                  stroke="#666"
+                  stroke-width="1.6"
+                ></circle>
+              </svg>
+              <input
+                id="q"
+                type="search"
+                placeholder="Buscar: Plumones, Sábanas,..."
+              />
+            </div>
+          </nav>
+        </div>
+        <div class="hero-search">
+          <div class="card filters">
+            <select id="filterType">
+              <option value="all">Todas las categorías</option>
+              <option value="Buzo">Buzo</option>
+              <option value="Cocina">Cocina</option>
+              <option value="Cojín">Cojín</option>
+              <option value="Frazadas">Frazadas</option>
+              <option value="Manta">Manta</option>
+              <option value="Pijama">Pijama</option>
+              <option value="Plumón">Plumón</option>
+              <option value="Sábana">Sábana</option>
+              <option value="Toallas">Toallas</option>
+              <option value="Vaso">Vaso</option>
+              <option value="Otros">Otros</option>
+            </select>
+            <!-- </div>
+                <div class="card filters"> -->
+            <select id="sortBy">
+              <option value="default">Orden recomendado</option>
+              <option value="price-asc">Precio: bajo a alto</option>
+              <option value="price-desc">Precio: alto a bajo</option>
+            </select>
+          </div>
+        </div>
+        <div id="products" class="products"></div>
+      </section>
+    </main>
 
-  <footer>
-    <small>© <span id="year"></span> Frutos Secos · La Fran</small>
-  </footer>
+    <footer>
+      <small>© <span id="year"></span> Frutos Secos · La Fran</small>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
