@@ -4,6 +4,7 @@
   --accent: #ffffff;
   --muted: #fcfcfc;
   --price: #e63946;
+  --gray: #888;
   font-family:
     Inter,
     system-ui,
@@ -24,7 +25,7 @@ body {
 header {
   align-items: center;
   justify-content: space-between;
-  padding: 18px 28px;
+  padding: 11px 28px;
   background: var(--card);
   box-shadow: 0 6px 18px rgba(20, 20, 20, 0.06);
   position: sticky;
