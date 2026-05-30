@@ -34,8 +34,9 @@ header {
 }
 .brand {
   display: flex;
-  justify-content: space-between;
-  gap: 12px;
+  /* justify-content: space-between; */
+  /* gap: 12px; */
+  width: 214%;
   align-items: center;
 }
 .logo {
