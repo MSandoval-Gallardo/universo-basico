@@ -178,7 +178,7 @@ const PRODUCTS = [
   {
     id: 23,
     name: "Manta Estampado 127x152cm",
-    type: "Manta",
+    type: "Frazadas",
     price: 6990,
     desc: "",
     image: "mantaestampado.webp",
@@ -378,7 +378,7 @@ const PRODUCTS = [
   {
     id: 48,
     name: "Frazada térmica 1.5P",
-    type: "frazada",
+    type: "Frazadas",
     price: 7500,
     desc: "",
     image: "frasadatermica.webp",
@@ -386,7 +386,7 @@ const PRODUCTS = [
   {
     id: 49,
     name: "Frazada térmica 2P",
-    type: "frazada",
+    type: "Frazadas",
     price: 8500,
     desc: "",
     image: "frasadatermica.webp",
@@ -394,7 +394,7 @@ const PRODUCTS = [
   {
     id: 50,
     name: "Frazada térmica king",
-    type: "frazada",
+    type: "Frazadas",
     price: 9500,
     desc: "",
     image: "frasadatermica.webp",
