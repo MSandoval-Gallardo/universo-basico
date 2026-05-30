@@ -156,6 +156,19 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+.contacto {
+  border-color: green;
+  border-radius: 5%;
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  text-align: center;
+}
+.btn-contacto {
+  color: rgb(42, 180, 49);
+  text-decoration: none;
+}
 .price {
   font-weight: 700;
   color: var(--price);
