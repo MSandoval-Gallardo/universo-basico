@@ -443,7 +443,7 @@ function renderProducts(list) {
           <div class="meta">
             <div class="price">${money(p.price)}</div>
             <div class="contacto">
-            <a href="https://wa.me/56984365044?text=Hola,%20me%20interesa%20esto:%20${encodeURIComponent(p.name)}"
+            <a href="https://wa.me/56959111954?text=Hola,%20me%20interesa%20esto:%20${encodeURIComponent(p.name)}"
                 class="btn-contacto">
                 Contactar <i class="fa-brands fa-square-whatsapp"></i>
             </a>
